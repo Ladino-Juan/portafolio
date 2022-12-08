@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply text-white border bg-slate-900 border-slate-900
+      hover:bg-transparent hover:text-slate-900 rounded-md;
+  }
+}
+
+.custom-shape-divider-top-1666716756 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1666716756 svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1666716756 .shape-fill {
+  fill: #94a3b8;
+}
+
+   
+   
